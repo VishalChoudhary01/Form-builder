@@ -12,6 +12,8 @@ export default function FormGenerator() {
 
   const selectedTemplate = templates.find(t => t.id === selectedTemplateId);
 
+ 
+
   const handleInputChange = (fieldId, value) => {
     setFormData({
       ...formData,
